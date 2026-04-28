@@ -95,6 +95,10 @@ See the [Messaging Gateway overview](/docs/user-guide/messaging) for the platfor
 - **[Plugin System](/docs/user-guide/features/plugins)** — Extend Hermes with custom tools, lifecycle hooks, and CLI commands without modifying core code. Plugins are discovered from `~/.hermes/plugins/`, project-local `.hermes/plugins/`, and pip-installed entry points.
 - **[Build a Plugin](/docs/guides/build-a-hermes-plugin)** — Step-by-step guide for creating Hermes plugins with tools, hooks, and CLI commands.
 
+## Security & Auditability
+
+- **[PiQrypt](/docs/integrations/piqrypt)** — Cryptographic audit trail for every Hermes tool call. Ed25519-signed, hash-chained, local-first. buid for EU AI Act Art. 12 .
+  
 ## Training & Evaluation
 
 - **[RL Training](/docs/user-guide/features/rl-training)** — Generate trajectory data from agent sessions for reinforcement learning and model fine-tuning. Supports Atropos environments with customizable reward functions.
